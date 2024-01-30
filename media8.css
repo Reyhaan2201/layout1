@@ -1,0 +1,111 @@
+@media screen and (max-width: 765px) {
+   .container{
+    /* border: 3px solid blueviolet; */
+    min-width: 750px;
+    margin: auto;
+    height: 1000px;
+
+    
+   }
+   .mini-box2{
+    min-width: 700px;
+   }
+   .box::after{
+    left: 200px;
+    font-size: 80px;
+   }
+   .dropdown{
+    padding: 5px;
+   }
+   .dropdown a{
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: center;
+   }
+   .box2{
+    height: 300px;
+    min-width: 700px;
+   }
+   .picture-box{
+    left: 20px;
+
+    /* flex-direction: column; */
+   }
+   .picture{
+    flex: none;
+    width: 170px;
+    height: 200px;
+    margin: 5px;
+   }
+   .picture img{
+    min-width: 150px;
+    height: 200px;
+   }
+   .picture1::after{
+    left: 10px;
+   }
+   .picture2::after{
+    left: 200px;
+   }
+   .picture3::after{
+    left: 400px;
+   }
+   .cotainer1{
+    height: 110vh;
+   }
+   .page1{
+    min-width: 600px;
+    max-height: 400px;
+   }
+   .page1::before,.page1::after{
+    left: 200px;
+   }
+   .mini-page::before{
+    font-size: 25px;
+    left: 150px;
+   }
+   .mini-page{
+    min-width: 700px;
+    height: 200px;
+    /* border: none; */
+   }
+   .mini-page1{
+    left: 20px;
+    top: 150px;
+   }
+.page1,.page2{
+    display: none;
+    visibility: hidden;
+}
+   .page3{
+    /* height: 1200px; */
+    display: none;
+    visibility: hidden;
+   }
+   .page4{
+    bottom: 0;
+    height: 900px;
+    min-width: 650px;
+    top: 20px;flex-direction: column;
+
+   }
+   .happy-me{
+    width: 350px;
+    height: 420px;
+   }
+   .happy-me1{
+    background: url('./picture8/jk\ 4.jpg') no-repeat center/cover;
+   }
+   .page4::before,.page4::after{
+    display: none;
+    visibility: hidden;
+   }
+   .page5{
+    bottom: 0px;
+    min-width: 700px;
+
+   }
+
+
+
+}
